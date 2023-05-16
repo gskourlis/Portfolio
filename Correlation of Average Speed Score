@@ -1,0 +1,15 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+data = pd.read_csv('MEAN TRIAL,SPEED,TIME.csv')
+
+
+plt.plot(data['SCORE'],data['SPEED'],"o", color='blue')
+plt.grid(True)
+plt.xlabel('Score per Trial')
+plt.ylabel('Average Speed per Trial')
+plt.title('Correlation of Average Speed/Score')
+
+sns.regplot(x=data['SCORE'], y=data['SPEED'], scatter=False, color='red')
+plt.show()
