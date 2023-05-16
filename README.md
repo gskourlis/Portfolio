@@ -4,10 +4,10 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 
 ## Table of Contents
 
-- [Project 1: Web Scraper](#project-1-web-scraper)
-- [Project 2: Data Analysis](#project-2-data-analysis)
-- [Project 3: Machine Learning](#project-3-machine-learning)
-- [Project 4: Web Development](#project-4-web-development)
+- [Project 1: Air Quality Data](#project-1-air-quality-data)
+- [Project 2: Fifa Plots Exercise](#project-2-Fifa-Plots-Exercise)
+- [Project 3: Percentage of Decrement Calculations Whole Circuit](#project-3-Percentage-of-Decrement-Calculations-Whole-Circuit)
+- [Project 4: Sprint Percentage Calculations Loop](#project-4-Sprint-Percentage-Calculations-Loop)
 - [Contributing](#contributing)
 - [License](#license)
 
