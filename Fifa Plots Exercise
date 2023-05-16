@@ -1,0 +1,132 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Load the dataset
+df = pd.read_csv('fifa_2023_players.csv')
+
+#Exercise 1
+
+plt.hist(df['age'], bins=np.arange(df['age'].min(), df['age'].max() + 1, 1), edgecolor='black', alpha=0.7)
+
+
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.title('Distribution of Player Ages')
+
+
+
+# Exercise 2
+grouped = df.groupby("league_name").count()["player_id"]
+
+grouped.plot(kind="bar", color="blue", figsize=(15, 5))
+
+
+plt.xlabel("League Name")
+plt.ylabel("Number of Players")
+plt.title("Number of Players per League")
+
+
+#Exercise 3
+
+df.plot.scatter(x='overall', y='value_eur' , s=50 , c='blue')
+plt.xlabel('Overall')
+plt.ylabel('Value in EUR')
+plt.title('Relationship Between Player Value and Overall')
+
+#Exercise 4
+
+
+plt.scatter(df['height_cm'],df['weight_kg'])
+plt.xlabel('Height (cm)')
+plt.ylabel('Weight (kg)')
+plt.title('Distribution of Player Heights and Weights')
+
+#Exercise 5
+
+grouped_df = df.groupby('league_name').mean()
+(wage_mean) = grouped_df['wage_eur']
+wage_mean.plot(kind='bar')
+
+plt.xlabel('League')
+plt.ylabel('Average Wage (EUR)')
+plt.title('Average Player Wage per League')
+
+plt.show()
+
+#Exercise 5
+
+#Calculate the average value for each age group
+age_group = df.groupby("age")["value_eur"].mean()
+
+# Plot the line chart
+plt.plot(age_group)
+plt.xlabel("Age")
+plt.ylabel("Average Value (EUR)")
+plt.title("Average Player Value by Age")
+plt.show()
+
+#Exercise 6
+
+# Calculate the average value for each age group
+age_group = df.groupby("age")["value_eur"].mean()
+
+# Plot the line chart
+plt.plot(age_group)
+plt.xlabel("Age")
+plt.ylabel("Average Value (EUR)")
+plt.title("Average Player Value by Age")
+plt.show()
+
+#Exercise 7
+
+# Count the number of players in each country
+country_counts = df["nationality_name"].value_counts()
+
+# Select the top 10 countries
+top_10_countries = country_counts[:10]
+
+# Plot the top 10 countries as a bar chart
+plt.bar(top_10_countries.index, top_10_countries.values)
+
+# Add labels and title to the chart
+plt.xlabel("Country")
+plt.ylabel("Number of Players")
+plt.title("Top 10 Countries with the Most Players in FIFA 2023")
+
+#Exercise 8
+# group the data by skill moves and count the number of players in each group
+grouped = df.groupby('skill_moves').size()
+
+# create a pie chart to show the proportion of players with different skill move ratings
+fig, ax = plt.subplots()
+ax.pie(grouped, labels=grouped.index, autopct='%1.1f%%', startangle=90)
+ax.axis('equal')
+
+#Exercise 9
+
+mean_overal_by_age = df.groupby('age')['overall'].mean()
+
+plt.plot(mean_overal_by_age.index,mean_overal_by_age,marker='o',color='blue')
+plt.xlabel('Age')
+plt.ylabel('Average Overall Score')
+plt.title('Average Player Strength by Age')
+plt.show()
+
+#Exercise 10
+# group the data by league and get the mean wage of each league
+grouped_df = df.groupby('league_name').mean()
+
+# select the mean wage column
+wage_mean = grouped_df['wage_eur']
+
+# plot the bar chart
+wage_mean.plot(kind='bar')
+
+# set the title and labels
+plt.title('Average Player Wage per League')
+plt.xlabel('League')
+plt.ylabel('Average Wage (EUR)')
+
+# show the plot
+plt.show()

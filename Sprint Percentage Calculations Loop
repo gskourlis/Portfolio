@@ -1,0 +1,40 @@
+trial1 = input("Trial 1 is: ")
+trial2 = input("Trial 2 is: ")
+
+
+def avgtimetrials(a, b):
+    return (float(a) + float(b)) / 2
+
+
+mean_time = avgtimetrials(trial1, trial2)
+print('Mean Time is', mean_time)
+num = 0
+maxsprint = 50
+for sprint in range(6):
+    sprint = input("Type Sprint: ")
+
+
+
+    num = num + 1
+    if float(sprint) > float(mean_time) + (0.1 * float(mean_time)) or float(sprint) < float(mean_time) - (
+            0.1 * float(mean_time)):
+        print('Sprint', num, 'is', sprint, 'and over 10 %, color it red')
+    elif float(sprint) > float(mean_time) + (0.05 * float(mean_time)) or float(sprint) < float(mean_time) - (
+            0.05 * float(mean_time)):
+        print('Sprint', num, 'is', sprint, 'and over 5 %, color it orange')
+    elif float(sprint) > float(mean_time) + (0.02 * float(mean_time)) or float(sprint) < float(mean_time) - (
+            0.02 * float(mean_time)):
+        print('Sprint', num, 'is', sprint, 'and over over 2 %, color it yellow')
+    else:
+        print('Sprint', num, 'is', sprint, 'under 2% and color it green')
+
+    if float(sprint) < float(maxsprint):
+        maxsprint = sprint
+
+print ("The fastest sprint is",maxsprint)
+
+def Percentage_of_Decrement (a,b):
+    c= ((float(a)-float(b))/float(b))*100
+    return c
+percentage_decrement = Percentage_of_Decrement(mean_time,maxsprint)
+print('The percentage of decrement is', percentage_decrement,'%')
