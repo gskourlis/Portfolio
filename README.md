@@ -33,4 +33,4 @@ Thank you for your interest in contributing to my Python portfolio! If you have 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this code for personal or commercial purposes.
+You are free to use, modify, and distribute this code for personal or commercial purposes.
