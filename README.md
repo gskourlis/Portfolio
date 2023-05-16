@@ -8,6 +8,7 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 - [Project 2: Fifa Plots Exercise](#project-2-Fifa-Plots-Exercise)
 - [Project 3: Percentage of Decrement Calculations Whole Circuit](#project-3-Percentage-of-Decrement-Calculations-Whole-Circuit)
 - [Project 4: Sprint Percentage Calculations Loop](#project-4-Sprint-Percentage-Calculations-Loop)
+- [Project 5: Correlation of Average Speed/Score](#project-5-Correlation-of-Average-Speed/Score)
 - [Contributing](#contributing)
 - [License](#license)
 
