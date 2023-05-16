@@ -28,6 +28,9 @@ This code was a part of my master's degree thesis. It helped calculate more effi
 
 In the same vein as Project 3, this code takes as an input the sprint times in a specific part of a sprint that I wanted to examine, and returns as output the meantime of the pre-test sprints, the percentage of decrement of the actual sprints in function with the trials and the total percentage of decrement of each subject.
 
+## Project 5
+This is a scatter plot that replicates the correlation between the average speed and accuracy of subjects in a football test which includes sprinting and shooting. The trendline indicates that the higher the speed of a player the higher the accuracy. 
+
 ## Contributing
 
 Thank you for your interest in contributing to my Python portfolio! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request. Any contributions are highly appreciated.
