@@ -1,0 +1,14 @@
+import numpy as np
+
+arr = np.array([11.5,11.5,10.2,11.1,10.7,11.4])
+
+mean_time = sum(arr)/len(arr)
+maxsprint = min(arr)
+
+print ('The average time is',mean_time)
+print ('The best sprint is',maxsprint)
+def Percentage_of_Decrement (a,b):
+    c= ((float(a)-float(b))/float(b))*100
+    return c
+percentage_decrement = Percentage_of_Decrement(mean_time,maxsprint)
+print('The percentage of decrement is', percentage_decrement,'%')
