@@ -9,6 +9,8 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 - [Project 3: Percentage of Decrement Calculations Whole Circuit](#project-3-Percentage-of-Decrement-Calculations-Whole-Circuit)
 - [Project 4: Sprint Percentage Calculations Loop](#project-4-Sprint-Percentage-Calculations-Loop)
 - [Project 5: Correlation of Average Speed/Score](#project-5-Correlation-of-Average-Speed/Score)
+- [Project 6: Correlation of Average Speed/Score](#project-5-Correlation-of-Average-Speed/Score)
+- [Project 7: Correlation of Average Speed/Score](#project-5-Correlation-of-Average-Speed/Score)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -30,6 +32,10 @@ In the same vein as Project 3, this code takes as an input the sprint times in a
 
 ## Project 5
 This is a scatter plot that replicates the correlation between the average speed and accuracy of subjects in a football test which includes sprinting and shooting. The trendline indicates that the higher the speed of a player the higher the accuracy. 
+
+## Project 6 
+
+## Project 7
 
 ## Contributing
 
