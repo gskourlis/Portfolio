@@ -34,8 +34,10 @@ In the same vein as Project 3, this code takes as an input the sprint times in a
 This is a scatter plot that replicates the correlation between the average speed and accuracy of subjects in a football test which includes sprinting and shooting. The trendline indicates that the higher the speed of a player the higher the accuracy. 
 
 ## Project 6 
+My 6th project was about extracting data from an SQL database and then making a plot which compared the Average Score vs Age of Football Players.
 
 ## Project 7
+Utilizing free data from Statsbomb I made a visualisation of the 2022 World Cup Final when Messi made his first pass of the game.
 
 ## Contributing
 
