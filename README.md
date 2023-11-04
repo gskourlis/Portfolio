@@ -11,6 +11,7 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 - [Project 5: Correlation of Average Speed/Score](#project-5-Correlation-of-Average-Speed/Score)
 - [Project 6: Athlete_Analysis](#project-6-Athlete_Analysis.py)
 - [Project 7: World_Cup_Final_Messi_360](#World_Cup_Final_Messi_360)
+- [Project 8: Europa_League_Final](#Europa_League_Final)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -38,6 +39,9 @@ My 6th project was about extracting data from an SQL database and then making a 
 
 ## Project 7
 Utilizing free data from Statsbomb I made a visualisation of the 2022 World Cup Final when Messi made his first pass of the game.
+
+## Project 8
+In this project I made a simple barplot about the sucessfull and unsucessfull passes in the Europa League Final between Manchester United and Villareal and 2 maps to see their sucessful passes in the offensive half.
 
 ## Contributing
 
