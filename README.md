@@ -12,6 +12,7 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 - [Project 6: Athlete_Analysis](#project-6-Athlete_Analysis.py)
 - [Project 7: World_Cup_Final_Messi_360](#World_Cup_Final_Messi_360)
 - [Project 8: Europa_League_Final](#Europa_League_Final)
+- [Project 9: Barcelona_ShotMap](#Barcelona_ShotMap)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -43,6 +44,8 @@ Utilizing free data from Statsbomb I made a visualisation of the 2022 World Cup 
 ## Project 8
 In this project I made a simple barplot about the sucessfull and unsucessfull passes in the Europa League Final between Manchester United and Villareal and 2 maps to see their sucessful passes in the offensive half.
 
+## Project 9 
+This is a typical Shot Map from an FC Barcelona match indicating Missed, Saved and Shots in the post.
 ## Contributing
 
 Thank you for your interest in contributing to my Python portfolio! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request. Any contributions are highly appreciated.
