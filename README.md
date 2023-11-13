@@ -13,7 +13,7 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 - [Project 7: World_Cup_Final_Messi_360](#World_Cup_Final_Messi_360)
 - [Project 8: Europa_League_Final](#Europa_League_Final)
 - [Project 9: Barcelona_ShotMap](#Barcelona_ShotMap)
-- [Project 10: Premier_League xG / xGA](#Premier_League_xG_/_xGA)
+- [Project 10: Premier League xG / xGA](#Premier_League_xG_/_xGA)
 - [Contributing](#contributing)
 - [License](#license)
 
