@@ -13,6 +13,7 @@ Welcome to my Python portfolio! This repository showcases my work and projects i
 - [Project 7: World_Cup_Final_Messi_360](#World_Cup_Final_Messi_360)
 - [Project 8: Europa_League_Final](#Europa_League_Final)
 - [Project 9: Barcelona_ShotMap](#Barcelona_ShotMap)
+- [Project 10: Premier_League xG / xGA](#Premier_League_xG_/_xGA)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -46,6 +47,10 @@ In this project I made a simple barplot about the sucessfull and unsucessfull pa
 
 ## Project 9 
 This is a typical Shot Map from an FC Barcelona match indicating Missed, Saved and Shots in the post.
+
+## Project 10 
+The plot I have made declares the xG in function with the xGA of every PL team until today. As seen, the more down and right a team is the better their overall xG/xGA performance and vice versa.
+
 ## Contributing
 
 Thank you for your interest in contributing to my Python portfolio! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request. Any contributions are highly appreciated.
